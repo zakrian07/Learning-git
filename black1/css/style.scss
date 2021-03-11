@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+b,
+small,
+strong {
+    font-family: lato;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+textarea {
+    outline: 2px solid transparent !important;
+    box-shadow: none !important;
+}
+
+input {
+    outline: 2px solid transparent !important;
+    box-shadow: none !important;
+}
+
+html {
+    --scrollbarBG: #cfd8dc;
+    --thumbBG: #90a4ae;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    /* for vertical scrollbars */
+    height: 12px;
+    /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d49e31;
+}
+
+.container-fluid {
+    padding: 0px;
+}
